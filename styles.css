@@ -1,10 +1,19 @@
 body {
     font-family: Open Sans;
+    display:flex  
+
 }
 
-h1 {
-    
-    
+body1 {
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    margin-left: 18%;
+} 
+
+.hidden {
+    display: none;
 }
 
 #title {
@@ -63,9 +72,37 @@ button {
     box-shadow: 5px 5px 5px #888;
 }
 
+.container2 {
+    flex: content;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 75%;
+    justify-content: center;
+    background-color: #f8f9fb;
+    border:4px solid #1221f1;
+    border-radius:5px;
+    color: #090909;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+}
+
+Q {
+
+
+
+
+}
 
 #Timer { 
-    position: relative;
+    text-align: start;
     
-    padding: 20 20 20 20 ;
+    text-rendering: geometricPrecision;
+    
+    color: #1221f1;
+
+    padding: 20 20 20 20 ; 
+
 }
