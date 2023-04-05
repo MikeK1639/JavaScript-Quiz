@@ -26,4 +26,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ![_C__Users_drumm_Documents_UCF_homework_JavaScript-quiz_JavaScript-quiz_index html](https://user-images.githubusercontent.com/126822125/229956123-807bf1b7-624f-44ad-96c9-1e664410e83d.png)
 
-https://github.com/MikeK1639/JavaScript-quiz
+https://github.com/MikeK1639/JavaScript-quiz 
+https://mikek1639.github.io/JavaScript-quiz/
