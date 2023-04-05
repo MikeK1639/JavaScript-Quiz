@@ -3,7 +3,7 @@ function startTimer (){
     if (timeLeft == 0) {
       clearTimeout(timerId);
       console.log("timer check")
-      
+      // this is the timer function
     } else {
       timer.innerHTML = timeLeft + ' seconds remaining';
       timeLeft--;
@@ -14,7 +14,7 @@ function startTimer (){
   
   var timerId = setInterval(countdown, 1000);
   
-
+// this is the check answer function used to cycle 
 }
 function checkanswer(event) { 
   var choice=event.target.id 
@@ -28,7 +28,7 @@ function checkanswer(event) {
 
 }
 
-
+// This is my array for the questions and answers
 const startButton = document.querySelector("#start");
 const lose = document.querySelector("#lose");
 lose.addEventListener("click", function () { startButton.style.visibility = 'hidden'; });
@@ -77,14 +77,14 @@ const A=document.querySelector("#A")
 const B=document.querySelector("#B")
 const C=document.querySelector("#C") 
 const D=document.querySelector("#D")
-
+// this is the queryselector for the questions and answers
 
 let qindex=0 
 function changequestion(){
   quizlength= Object.getOwnPropertyNames(quiz).length 
   if(questions<quizlength)
   console.log(questions[qindex]);
-  
+  // questions for the index and output choices
   let q=questions[qindex].question 
   let a=questions[qindex].choices[0] 
   let b=questions[qindex].choices[1]
@@ -99,17 +99,7 @@ function changequestion(){
 
 }
 
-
-
-
-// Link questions answers to timer 
-// May need continue button 
-// API for locally stored scores
-// Must keep record!
-
-
-
-
+// start button function 
 function startbutton()
  { changequestion()
   document.querySelector("body1").classList.add("hidden")
